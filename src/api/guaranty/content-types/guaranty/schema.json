@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guaranties",
+  "info": {
+    "singularName": "guaranty",
+    "pluralName": "guaranties",
+    "displayName": "Záruky",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offerlists",
+  "info": {
+    "singularName": "offerlist",
+    "pluralName": "offerlists",
+    "displayName": "Orientační balíčky",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "panely": {
+      "type": "string"
+    },
+    "menic": {
+      "type": "string"
+    },
+    "baterie": {
+      "type": "string"
+    },
+    "konstrukce": {
+      "type": "string"
+    },
+    "dph": {
+      "type": "string"
+    },
+    "dotace": {
+      "type": "string"
+    },
+    "final": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rank": {
+      "type": "integer"
+    }
+  }
+}

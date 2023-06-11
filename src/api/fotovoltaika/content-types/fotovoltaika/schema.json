@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fotovoltaikas",
+  "info": {
+    "singularName": "fotovoltaika",
+    "pluralName": "fotovoltaikas",
+    "displayName": "Fotovoltaika",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rank": {
+      "type": "integer"
+    }
+  }
+}
